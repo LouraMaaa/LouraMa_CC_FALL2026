@@ -1,2 +1,2 @@
-body{background-color: rgb(114, 231, 254); text-decoration-color: color-mix(in hsl shorter hue, color percentage, color percentage);}
+body{background-color: rgb(114, 231, 254); text-decoration-color: color-mix(in hsl shorter hue, color percentage, color percentage 50); margin: auto;}
 head{font-family:"Lora", serif;}
