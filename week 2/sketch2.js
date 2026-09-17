@@ -1,0 +1,22 @@
+function setup(){
+    createCanvas(windowWidth, windowHeight)
+    background(100)
+
+    fill(100,0,0)
+    strokeWeight(15)
+    stroke(200,100,0)
+
+    
+
+}
+function draw(){
+    
+}
+function mouseDragged(){
+   ellipse(mouseX,mouseY,50, 50)
+   // background(100)
+} 
+function mousePressed(){
+    // background(100)
+    line()
+}
