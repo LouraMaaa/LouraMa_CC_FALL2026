@@ -1,3 +1,4 @@
+
 let bloom = 0;
 let target = 0;
 let angle = 0;
@@ -40,7 +41,7 @@ function draw() {
             let waveX = x;
             let waveY = y + sin(x * 0.8 + frameCount * 0.5) * 10;
 
-            vertex(waveX, waveY);
+        vertex( waveX, waveY);
         }
 
     endShape();
