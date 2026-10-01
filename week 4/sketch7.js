@@ -31,7 +31,7 @@ noFill();
 
         beginShape();
 
-        for (let x = 0; x <= width; x += 8) {
+for (let x = 0; x <= width; x += 8) {
             let waveY = y + sin(x * 2 + y * 0.5) * 5;
          let waveX = x + cos(y * 0.8) * 3;
             vertex(waveX, waveY);
@@ -85,17 +85,9 @@ pop();
 
 pop();
 }
-lerpedMouseX = lerp(
-        lerpedMouseX,
-        mouseX,
-        0.05
-    );
+lerpedMouseX = lerp(lerpedMouseX, mouseX, 0.05);
 
- lerpedMouseY = lerp(
-        lerpedMouseY,
-        mouseY,
-        0.05
-    );
+ lerpedMouseY = lerp(lerpedMouseY, mouseY, 0.05);
 
 push();
 
@@ -108,16 +100,12 @@ push();
     rotate(angle);
     for (let i = 0; i < 8; i++) {
 
-        push();
-
+    push();
         rotate(i * 45);
-
         noFill();
         stroke(0);
-
         ellipse(0, -25, 18, 40);
-
-        pop();
+    pop();
     }
   noFill();
     stroke(0);
@@ -130,10 +118,9 @@ angle += 0.3;
 
 if (exportSVG) {
 
-        endRecordSvg();
-
-        exportSVG = false;
-        console.log("SVG exported!");
+    endRecordSvg();
+ exportSVG = false;
+ console.log("SVG exported!");
 
 }
 }
