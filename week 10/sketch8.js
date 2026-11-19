@@ -399,15 +399,15 @@ function draw() {
 
  
 
-  fill(255);
-  noStroke();
-  textAlign(LEFT, TOP);
-  textSize(16);
+//   fill(255);
+//   noStroke();
+//   textAlign(LEFT, TOP);
+//   textSize(16);
 
-  text("Hands: " + hands.length, 20, 20);
-  text("Gesture: " + currentGesture, 20, 45);
-  text("Music: " + (song.isPlaying() ? "PLAYING" : "PAUSED"), 20, 70);
-  text("Audio ready: " + audioReady, 20, 95);
+//   text("Hands: " + hands.length, 20, 20);
+//   text("Gesture: " + currentGesture, 20, 45);
+//   text("Music: " + (song.isPlaying() ? "PLAYING" : "PAUSED"), 20, 70);
+//   text("Audio ready: " + audioReady, 20, 95);
 
 }
 
